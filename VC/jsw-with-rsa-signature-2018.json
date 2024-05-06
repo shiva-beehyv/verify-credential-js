@@ -1,0 +1,43 @@
+{
+  "id": "did:rcw:9f81b615-aa44-4582-bcef-b447cd2af30d",
+  "type": [
+    "VerifiableCredential",
+    "LifeInsuranceCredential",
+    "InsuranceCredential"
+  ],
+  "proof": {
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Np2UuiSwFqTXkb5QsD2TNEqDU6hDIW3JINjN-4wYOsP-VRY-Xl7yc9k2tvnANAEaz9lYQW_o5t9FkN4WcuJIdrZ2t1phvxtueGcVFREgBJf_sX9gJH-JTqoQKsoSnQeKqsqUh2vrR7-J6CfGbqdYnM3btzKlzcO5go_C6IOMsVFpt0Do1IXCj25bOQRN1wL05LDUa_K_0dBhrcK3GRzo0zDFqaH7mGvYm6jMgMogQvyzUJrShIKNkBfSWU7ibdbnspUzOv-5aZs2-U9kM9iV5ERNUMOe0b4Y8AJy_9ZGOvCwCGe0nxZ94thqsc3egCpxDv-q3k3nEsJ3uoOQm7TlGg",
+    "type": "RsaSignature2018",
+    "created": "2024-05-03T10:26:34Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:challabeehyv.github.io:DID-Resolve:436f8d3c-4271-450d-813b-e17fb2bc8ab5#key-0"
+  },
+  "issuer": "did:web:challabeehyv.github.io:DID-Resolve:436f8d3c-4271-450d-813b-e17fb2bc8ab5",
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://holashchand.github.io/test_project/insurance-context.json",
+    {
+      "LifeInsuranceCredential": {
+        "@id": "InsuranceCredential"
+      }
+    }
+  ],
+  "issuanceDate": "2024-05-03T10:26:34.479Z",
+  "expirationDate": "2024-06-02T10:26:34.465Z",
+  "credentialSubject": {
+    "id": "did:jwk:eyJrdHkiOiJFQyIsInVzZSI6InNpZyIsImNydiI6IlAtMjU2Iiwia2lkIjoidVJqZ2NXVlBSQTR3THh4U2hCOUlydk14RjY2Z3hmMHdybzB6TFp5OUhubyIsIngiOiJHWjBqbGhZMzFQVzZGdzZTdEJ5S2I5R0lTREZkY2YwV1VHQmFuemw4WGdZIiwieSI6IkxfVWtua0Z6YUVvWGlNMjBpcTlxNk1RUGRzQXFnNFlhNU95bnM5S1B4b1EiLCJhbGciOiJFUzI1NiJ9",
+    "dob": "1968-12-24",
+    "email": "abhishek@gmail.com",
+    "gender": "Male",
+    "mobile": "0123456789",
+    "benefits": [
+      "Critical Surgery",
+      "Full body checkup"
+    ],
+    "fullName": "Abhishek Gangwar",
+    "policyName": "Start Insurance Gold Premium",
+    "policyNumber": "1234567",
+    "policyIssuedOn": "2023-04-20T20:48:17.684Z",
+    "policyExpiresOn": "2033-04-20T20:48:17.684Z"
+  }
+}
