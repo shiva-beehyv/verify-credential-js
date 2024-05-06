@@ -44,7 +44,7 @@ const documentLoader = async url => {
             document: json,
         };
     }
-    return jsonld.documentLoaders.xhr(url);
+    return jsonld.documentLoaders.node(url);
 };
 
 const getProofPurpose = (verifiableCredential) => {
